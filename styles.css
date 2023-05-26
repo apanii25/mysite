@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&family=Vollkorn:ital@1&family=Zilla+Slab:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&family=Source+Code+Pro:wght@300&family=Vollkorn:ital@1&family=Zilla+Slab:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+}
+body {
+  background-color: #ffff;
+  color: #fff;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to left, #fff 85%,#BAD7E9 30%);
+}
+.max-width{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.navsection{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to top, #fff 80%,#BAD7E9 10%);
+  margin-bottom: 50px;
+  margin-top: 0%;
+}
+.navbar{
+  position:absolute;
+  width: 100%;
+  padding:15px;
+text-align: right;
+  font-size: large;
+  overflow: hidden;
+  position:fixed;
+}
+.navbar a{
+  padding: 30px;
+  text-decoration: none;
+  color: #161853;
+  text-transform: uppercase;
+  color:#000;
+  font-weight: 900;
+  font-size: 17px;
+  position: relative;
+  
+} 
+.navbar a:before{
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  border-bottom:2px solid  #4458dc;
+ transition: all 0.5s linear;
+}
+.navbar a:hover:before{
+  width: 100%;
+}
+
+.rightside{
+  margin-left:800px;
+}
+.rightside img{
+  width: 400px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+.leftside{
+  text-align:left;
+  color: black;
+ position:absolute;
+ margin-left: 50px;
+ margin-top: 100px;
+}
+.leftside h1,h2,a,p{
+  padding: 20px;
+}
+.leftside a{
+  text-decoration: none;
+}
+
+#btn1{
+  margin-left: 30px;
+
+}
+#btn2{
+  margin-left: 30px;
+  
+}
+#btn1,#btn2 {
+  background: #5E5DF0;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 10px 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  
+}
+.aboutsec{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+ 
+}
+
+h2{
+  color: #000;
+}
+ /* about section styling */
+ 
+
+.aboutsec .about-content .clo-left {
+  width: 45%;
+  height:300px ;
+  position:absolute;
+  margin-top: 50px;
+ 
+ 
+}
+
+.aboutsec .about-content .clo-left img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.aboutsec .about-content .right {
+  width: 45%;
+  height: 300px;
+  margin-left:500px;
+  margin-top: 50px;
+
+  
+}
+
+.aboutsec .about-content .right .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #04456e
+}
+
+.aboutsec .about-content .right .text span {
+  color: crimson;
+}
+
+.aboutsec .about-content .right p {
+  text-align: justify;
+}
+
+
+
+
+.edusec{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+  
+
+}
+.gallerysec{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+  
+}
+.contactsec{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+}
